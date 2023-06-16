@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "sedm-bd018"
+  },
+  "targets": {
+    "sedm-bd018": {
+      "hosting": {
+        "sedm": [
+          "sedm-bd018"
+        ]
+      }
+    }
+  }
+}
