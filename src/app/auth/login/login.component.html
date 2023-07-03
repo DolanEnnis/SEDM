@@ -2,14 +2,10 @@
 
 <!-- template-driven form -->
 <section class="login-form">
-  <div
-    class="form-group"
-    form
-    fxLayout="column"
-    fxLayoutAlign="center center"
-    fxLayoutGap="10px"
-  >
+  <div class="form-group" form></div>
+  <div class="container">
     <mat-form-field>
+      <mat-label>Email</mat-label>
       <input
         type="email"
         matInput
@@ -29,6 +25,6 @@
   </div>
 
   <div>
-    <a href=""> Need Account?</a>
+    <a routerLink="/signup">Signup</a>
   </div>
 </section>

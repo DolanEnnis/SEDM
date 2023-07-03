@@ -1,1 +1,31 @@
-<p>signup works!</p>
+<h1>Signup Page</h1>
+
+<!-- template-driven form -->
+<section class="login-form">
+  <div class="form-group" form></div>
+  <div class="container">
+    <mat-form-field>
+      <mat-label>Email</mat-label>
+      <input
+        type="email"
+        matInput
+        placeholder="Your email"
+        [(ngModel)]="email"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        type="password"
+        matInput
+        placeholder="Your password"
+        [(ngModel)]="password"
+      />
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="signup()">
+      Sign UP
+    </button>
+  </div>
+  <div>
+    <a routerLink="/login">All ready have an account</a>
+  </div>
+</section>
